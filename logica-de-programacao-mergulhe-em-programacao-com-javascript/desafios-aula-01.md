@@ -54,3 +54,13 @@ let nome = prompt('Digite o seu nome');
 ```js
 let idade = prompt('Digite a sua idade');
 ```
+
+
+10) Agora, para validar a idade que capturamos no desafio 09, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
+    
+```js
+let idade = prompt('Digite a sua idade');
+if (idade >= 18) {
+    alert('Pode tirar a habilitação!'); 
+}
+```
